@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 7
+  version: 6
   cacheKey: 9
 
 "ajv@npm:^6.5.5":
@@ -1096,12 +1096,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>":
   version: 1.11.1
-  resolution: "resolve@patch:resolve@npm%3A1.11.1#optional!builtin<compat/resolve>::version=1.11.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.11.1#~builtin<compat/resolve>::version=1.11.1&hash=c3c19d"
   dependencies:
     path-parse: "npm:^1.0.6"
-  checksum: 3aa3b786096f9bfa4a720c5530da62761854faf8dd585b867104f5d155ff1a327a3f4481363f9e46bfe98a2d3561d05ad5c097c250954161647341eefa544065
+  checksum: 8/fc3e272f1b1016888441d4d78591f7cfa7eed88a24e3d1fa52299e91135c37fd455232c394972b8e1fcc1b8433b62db943d1a7cc4f18a7a0593eb15f99668777
   languageName: node
   linkType: hard
 
@@ -1129,11 +1129,11 @@ __metadata:
   linkType: hard
 
 "semver@npm:2 || 3 || 4 || 5, semver@npm:^5.5.0":
-  version: 5.7.0
-  resolution: "semver@npm:5.7.0"
+  version: 5.7.2
+  resolution: "semver@npm:5.7.2"
   bin:
-    semver: ./bin/semver
-  checksum: 2b4f67c24b9b1a3daeec292659a614fa69870a2118b51bc0dafc33c387435b4a43ae5fb6134ef503296b69d9c05fb542907b11aa7b734328ccf4f1e6fddb8d83
+    semver: bin/semver
+  checksum: 8/fb4ab5e0dd1c22ce0c937ea390b4a822147a9c53dbd2a9a0132f12fe382902beef4fbf12cf51bb955248d8d15874ce8cd89532569756384f994309825f10b686
   languageName: node
   linkType: hard
 
@@ -1307,13 +1307,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "twemoji@workspace:."
   dependencies:
-    fs-extra: "npm:^8.0.1"
-    jsonfile: "npm:^5.0.0"
-    npm-run-all: "npm:^4.1.5"
-    phantomjs-prebuilt: "npm:^2.1.16"
-    twemoji-parser: "npm:14.0.0"
-    uglify-js: "npm:2.6.2"
-    universalify: "npm:^0.1.2"
+    fs-extra: ^8.0.1
+    jsonfile: ^5.0.0
+    npm-run-all: ^4.1.5
+    phantomjs-prebuilt: ^2.1.16
+    twemoji-parser: 14.0.0
+    uglify-js: 2.6.2
+    universalify: ^0.1.2
   languageName: unknown
   linkType: soft
 
