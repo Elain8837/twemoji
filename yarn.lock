@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 7
+  version: 6
   cacheKey: 9
 
 "ajv@npm:^6.5.5":
@@ -34,27 +34,6 @@ __metadata:
   dependencies:
     color-convert: "npm:^1.9.0"
   checksum: 88847a8969fcf787779a2cd03e73cd85ac45cbccace293e1227445dd6452cdf11df752c5f9afdb47343439762b96ae7baad1caf848360576d60be5e92f6842ab
-  languageName: node
-  linkType: hard
-
-"array-filter@npm:~0.0.0":
-  version: 0.0.1
-  resolution: "array-filter@npm:0.0.1"
-  checksum: 84a6e89d79dce7150ef0ea28046ec56b9ab95f773477599013241c0182734d31a0622d67c2baaeec374bb82fad80a58f1d26c136ff4f6837cdf78c9e550fc5b6
-  languageName: node
-  linkType: hard
-
-"array-map@npm:~0.0.0":
-  version: 0.0.0
-  resolution: "array-map@npm:0.0.0"
-  checksum: 200cd97dc8e8a4036bddc2189717941852991fb31092422ad322fc6eb8c448a6668970a1bf037888b905b8b416b8b2e25878032168ed5762b9b791b105dc123f
-  languageName: node
-  linkType: hard
-
-"array-reduce@npm:~0.0.0":
-  version: 0.0.0
-  resolution: "array-reduce@npm:0.0.0"
-  checksum: cffc6fc216f2e330962d66ce91215bcefb80fa7367e5f9c52ce723ce8341e77620a779bc64259de53ca8677ddaa17a770846e2f7448e63315e7d7fb17a92f025
   languageName: node
   linkType: hard
 
@@ -693,13 +672,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonify@npm:~0.0.0":
-  version: 0.0.0
-  resolution: "jsonify@npm:0.0.0"
-  checksum: 258b6575fd5fc7b93ecbcafb70ed893238daa0f0d5ec2af2acbc62ecde70cae06b72df2f6dc0f6a7b1478593fae93c0a9d8c75233bf1052951f2c8a7283a016f
-  languageName: node
-  linkType: hard
-
 "jsprim@npm:^1.2.2":
   version: 1.4.1
   resolution: "jsprim@npm:1.4.1"
@@ -1096,12 +1068,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@npm%3A^1.10.0#optional!builtin<compat/resolve>":
+"resolve@patch:resolve@npm%3A^1.10.0#~builtin<compat/resolve>":
   version: 1.11.1
-  resolution: "resolve@patch:resolve@npm%3A1.11.1#optional!builtin<compat/resolve>::version=1.11.1&hash=c3c19d"
+  resolution: "resolve@patch:resolve@npm%3A1.11.1#~builtin<compat/resolve>::version=1.11.1&hash=c3c19d"
   dependencies:
     path-parse: "npm:^1.0.6"
-  checksum: 3aa3b786096f9bfa4a720c5530da62761854faf8dd585b867104f5d155ff1a327a3f4481363f9e46bfe98a2d3561d05ad5c097c250954161647341eefa544065
+  checksum: 8/fc3e272f1b1016888441d4d78591f7cfa7eed88a24e3d1fa52299e91135c37fd455232c394972b8e1fcc1b8433b62db943d1a7cc4f18a7a0593eb15f99668777
   languageName: node
   linkType: hard
 
@@ -1154,14 +1126,9 @@ __metadata:
   linkType: hard
 
 "shell-quote@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "shell-quote@npm:1.6.1"
-  dependencies:
-    array-filter: "npm:~0.0.0"
-    array-map: "npm:~0.0.0"
-    array-reduce: "npm:~0.0.0"
-    jsonify: "npm:~0.0.0"
-  checksum: 74d6785bf17514b7afc441b741c30c4b86785b4e1ca12819b9fbb24aa1fd97b561de62f7f2c3be8196f0ad8a3dba2729d6f6a5ff38205f4ca4fb2a63c1ec8600
+  version: 1.8.1
+  resolution: "shell-quote@npm:1.8.1"
+  checksum: 8/5f01201f4ef504d4c6a9d0d283fa17075f6770bfbe4c5850b074974c68062f37929ca61700d95ad2ac8822e14e8c4b990ca0e6e9272e64befd74ce5e19f0736b
   languageName: node
   linkType: hard
 
@@ -1307,13 +1274,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "twemoji@workspace:."
   dependencies:
-    fs-extra: "npm:^8.0.1"
-    jsonfile: "npm:^5.0.0"
-    npm-run-all: "npm:^4.1.5"
-    phantomjs-prebuilt: "npm:^2.1.16"
-    twemoji-parser: "npm:14.0.0"
-    uglify-js: "npm:2.6.2"
-    universalify: "npm:^0.1.2"
+    fs-extra: ^8.0.1
+    jsonfile: ^5.0.0
+    npm-run-all: ^4.1.5
+    phantomjs-prebuilt: ^2.1.16
+    twemoji-parser: 14.0.0
+    uglify-js: 2.6.2
+    universalify: ^0.1.2
   languageName: unknown
   linkType: soft
 
